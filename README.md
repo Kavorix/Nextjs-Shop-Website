@@ -1,20 +1,12 @@
-# Descripción
+# Description
 
+## Run in dev
 
-
-## Correr en dev
-
-
-1. Clonar el repositorio.
-2. Crear una copia del ```.env.template``` y renombrarlo a ```.env``` y cambiar las variables de entorno.
-3. Instalar dependencias ```npm install```
-4. Levantar la base de datos ```docker compose up -d```
-5. Correr las migraciones de Primsa ```npx prisma migrate dev```
-6. Ejecutar seed ```npm run seed```
-7. Correr el proyecto ```npm run dev```
-8. Limpiar el localStorage del navegador.
-
-
-
-
-## Correr en prod
+1. Clone the repository.
+2. Create a copy of the ```.env.template``` and rename it to ```.env``` and change the environment variables.
+3. Install dependencies ```npm install```
+4. Upload the database ```docker compose up -d```
+5. Run Primsa migrations ```npx prisma migrate dev```
+6. Run seed ```npm run seed```
+7. Run the project ```npm run dev```
+8. Clean the browser's localStorage.
